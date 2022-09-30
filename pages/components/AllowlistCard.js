@@ -6,14 +6,14 @@ const AllowlistCard = () => {
       {/* Card Header */}
       <div className='border-b p-5 bg-neutral-100'>
       <h1 className='text-3xl font-bold mb-2'>Join This Allowlist</h1>
-      <p className='text-sm font-semibold text-slate-700 flex'>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+      <p className='text-sm font-semibold text-slate-700 flex items-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 m-1">
       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-13a.75.75 0 00-1.5 0v5c0 .414.336.75.75.75h4a.75.75 0 000-1.5h-3.25V5z" clipRule="evenodd" />
       </svg>
         1 Day, 13:27:20 remaining
       </p>
-      <p className='text-sm font-semibold mt-2 mb-4 text-slate-700 flex'>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+      <p className='text-sm font-semibold mt-2 mb-4 text-slate-700 flex items-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 m-1">
       <path fillRule="evenodd" d="M3 3.5A1.5 1.5 0 014.5 2h6.879a1.5 1.5 0 011.06.44l4.122 4.12A1.5 1.5 0 0117 7.622V16.5a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 013 16.5v-13zm10.857 5.691a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 00-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
       </svg>
 
@@ -56,7 +56,12 @@ const AllowlistCard = () => {
       </svg>
         Discord
       </h1>
-      <p className='bg-neutral-100 text-slate-700 font-medium rounded-lg py-1'>Join the BAYC Discord and have the Ape Drifter role</p>
+      <p className='bg-neutral-100 text-slate-700 font-semibold rounded-lg py-1 flex items-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 m-1">
+      <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z" clipRule="evenodd" />
+      </svg>
+      Join the BAYC Discord and have the Ape Drifter role
+      </p>
       </div>
       {/* Wallet */}
       <div className='mt-3 border-b border-neutral-300 pb-4'>

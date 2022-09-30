@@ -8,7 +8,7 @@ const Navbar = () => {
     <ul className='flex justify-between'>
       <div className='flex 2xl:gap-8 gap-3 items-center'>
       <li>
-        <h1 className='2xl:text-4xl text-2xl font-bold hover:text-neutral-500 transition-all ease-in-out'>SafeMint</h1>
+        <h1 className='2xl:text-2xl my-1 text-2xl font-bold hover:text-neutral-500 transition-all ease-in-out'>SafeMint</h1>
       </li>
       <li>
         <h1 className='hover:text-neutral-500 transition-all ease-in-out'>Collect</h1>
